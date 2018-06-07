@@ -94,12 +94,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="RealiseInterfaceBD\AdministratorService.cs" />
     <Compile Include="RealiseInterfaceBD\CarService.cs" />
     <Compile Include="RealiseInterfaceBD\DetailService.cs" />
     <Compile Include="RealiseInterfaceBD\ReportService.cs" />
     <Compile Include="RealiseInterfaceBD\RequestService.cs" />
     <Compile Include="RealiseInterfaceBD\SerializeSevice.cs" />
     <Compile Include="RealiseInterfaceBD\StockService.cs" />
+    <Compile Include="RealiseInterfaceBD\SupplierService.cs" />
     <Compile Include="UserViewModel\AdministratorViewModel.cs" />
     <Compile Include="UserViewModel\CarKitViewModel.cs" />
     <Compile Include="UserViewModel\CarViewModel.cs" />
@@ -127,7 +129,7 @@
       <DependentUpon>201805281336595_FirstMigration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
