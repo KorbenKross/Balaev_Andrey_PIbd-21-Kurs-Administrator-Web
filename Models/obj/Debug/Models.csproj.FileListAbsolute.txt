@@ -9,3 +9,5 @@ C:\Users\Kross\source\repos\Kurs\Models\obj\Debug\Models.csprojResolveAssemblyRe
 C:\Users\Kross\source\repos\Kurs\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
 C:\Users\Kross\source\repos\Kurs\Models\obj\Debug\Models.dll
 C:\Users\Kross\source\repos\Kurs\Models\obj\Debug\Models.pdb
+C:\Users\Kross\source\repos\Kurs\Models\obj\Debug\Models.Properties.Resources.resources
+C:\Users\Kross\source\repos\Kurs\Models\obj\Debug\Models.csproj.GenerateResource.Cache
