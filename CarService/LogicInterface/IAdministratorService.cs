@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Models;
-using Service.ConnectingModel;
-using Service.LogicInterface;
-using Service.UserViewModel;
+using Kurs.LogicInterface;
+using Kurs.ConnectingModel;
+using Kurs.UserViewModel;
+using Kurs;
 
-namespace Service.LogicInterface
+namespace Kurs.LogicInterface
 {
     public interface IAdministratorService
     {
@@ -21,7 +21,5 @@ namespace Service.LogicInterface
         void UpdElement(AdministratorConnectingModel model);
 
         void DelElement(int id);
-
-        void LogIn(AdministratorConnectingModel model);
     }
 }
