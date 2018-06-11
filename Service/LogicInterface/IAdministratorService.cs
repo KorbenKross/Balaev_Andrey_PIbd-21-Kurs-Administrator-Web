@@ -21,5 +21,7 @@ namespace Service.LogicInterface
         void UpdElement(AdministratorConnectingModel model);
 
         void DelElement(int id);
+
+        void LogIn(AdministratorConnectingModel model);
     }
 }

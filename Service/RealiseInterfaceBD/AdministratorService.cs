@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Service.RealiseInterfaceBD
 {
-   public class AdministratorService : IAdministratorService
+    public class AdministratorService : IAdministratorService
     {
         private DBContext context;
 
@@ -91,6 +91,16 @@ namespace Service.RealiseInterfaceBD
             else
             {
                 throw new Exception("Сотрудник не найден");
+            }
+        }
+
+        public void LogIn(AdministratorConnectingModel model)
+        {
+            Administrator element = context.Administrators.FirstOrDefault(rec =>
+                                    rec.login == model.login && rec.password == model.password);
+            if (element != null)
+            {
+                throw new Exception("Авторизация прошла успешно");
             }
         }
     }
