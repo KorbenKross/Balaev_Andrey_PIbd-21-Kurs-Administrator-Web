@@ -26,6 +26,8 @@ namespace Models
 
         public virtual Supplier supplier { get; set; }
 
+        public virtual CarKit CarKit { get; set; }
+
         [DataMember]
         [Required]
         public DateTime order_date { get; set; }
@@ -36,7 +38,11 @@ namespace Models
 
         [DataMember]
         [Required]
-        public int CarId { get; set; }
+        public int CarKitId { get; set; }
+
+        [DataMember]
+        [Required]
+        public string CarKitName { get; set; }
 
         [DataMember]
         [Required]
@@ -45,7 +51,7 @@ namespace Models
         [DataMember]
         public OrderCondition order_status { get; set; }
 
-        [ForeignKey("car_id")]
+        [ForeignKey("carkit_id")]
         public virtual List<OrderCar> OrderCar { get; set; }
     }
 }

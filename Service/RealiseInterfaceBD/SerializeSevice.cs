@@ -41,7 +41,7 @@ namespace Service.RealiseInterfaceBD
             srCar.Close();
             msCar.Close();
 
-            DataContractJsonSerializer carKitJS = new DataContractJsonSerializer(typeof(List<Car_kit>));
+            DataContractJsonSerializer carKitJS = new DataContractJsonSerializer(typeof(List<CarKit>));
             MemoryStream mscarKit = new MemoryStream();
             carKitJS.WriteObject(mscarKit, context.Car_kits.ToList());
             mscarKit.Position = 0;

@@ -20,8 +20,6 @@ namespace Service.UserViewModel
 
         public int CarId { get; set; }
 
-        public int DetailId { get; set; }
-
-        public string DetailName { get; set; }
+        public List<CarKitDetailViewModel> CarKitDetails { get; set; }
     }
 }

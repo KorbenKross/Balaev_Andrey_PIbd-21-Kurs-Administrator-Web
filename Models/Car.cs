@@ -25,10 +25,7 @@ namespace Models
         public int? cost { get; set; }
 
         [ForeignKey("car_id")]
-        public virtual List<OrderCar> CarOrders { get; set; }
-
-        [ForeignKey("car_id")]
-        public virtual List<Car_kit> Car_kit1 { get; set; }
+        public virtual List<CarKit> Car_kit1 { get; set; }
 
 
     }

@@ -29,9 +29,9 @@ namespace Models
         public double price { get; set; }
 
         [ForeignKey("DetailId")]
-        public virtual List<Car_kit> Car_kit { get; set; }
+        public virtual List<CarKitDetail> CarKitDetails { get; set; }
 
         [ForeignKey("DetailId")]
-        public virtual List<Stock_Detail> Stock_Detail { get; set; }
+        public virtual List<StockDetail> StockDetails { get; set; }
     }
 }

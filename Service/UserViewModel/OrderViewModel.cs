@@ -25,5 +25,11 @@ namespace Service.UserViewModel
 
         public OrderCondition order_status { get; set; }
 
+        public int CarKitId { get; set; }
+
+        public string kit_name { get; set; }
+
+        public int Count { get; set; }
+
     }
 }

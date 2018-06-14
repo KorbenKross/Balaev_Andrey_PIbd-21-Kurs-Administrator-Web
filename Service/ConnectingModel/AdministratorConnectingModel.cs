@@ -15,5 +15,7 @@ namespace Service.ConnectingModel
         public string login { get; set; }
 
         public string password { get; set; }
+
+        public string mail { get; set; }
     }
 }

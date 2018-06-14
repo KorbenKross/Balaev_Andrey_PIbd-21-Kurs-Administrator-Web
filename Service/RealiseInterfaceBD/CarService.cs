@@ -34,8 +34,6 @@ namespace Service.RealiseInterfaceBD
                             {
                                 carkit_id = recPC.carkit_id,
                                 carId = recPC.car_id,
-                                DetailId = recPC.DetailId,
-                                DetailName = recPC.Detail.DetailName,
                                 Count = recPC.Count
                             }
                         )
@@ -62,8 +60,6 @@ namespace Service.RealiseInterfaceBD
                             {
                                 carkit_id = recPC.carkit_id,
                                 carId = recPC.car_id,
-                                DetailId = recPC.DetailId,
-                                DetailName = recPC.Detail.DetailName,
                                 Count = recPC.Count
                             }
                         )
@@ -101,7 +97,7 @@ namespace Service.RealiseInterfaceBD
                     foreach (var groupProduct in groupProducts)
                     {
                         context.Car_kits.Add(
-                            new Car_kit
+                            new CarKit
                             {
                                 car_id = car.car_id,
                                 DetailId = groupProduct.ProductId,
@@ -160,7 +156,7 @@ namespace Service.RealiseInterfaceBD
 
                     foreach (var groupProduct in groupProducts)
                     {
-                        Car_kit car_Kit = context.Car_kits.FirstOrDefault(rec => rec.car_id == model.car_id && rec.DetailId == groupProduct.ProductId);
+                        CarKit car_Kit = context.Car_kits.FirstOrDefault(rec => rec.car_id == model.car_id && rec.DetailId == groupProduct.ProductId);
                         if (car_Kit != null)
                         {
                             car_Kit.Count += groupProduct.Count;
@@ -169,7 +165,7 @@ namespace Service.RealiseInterfaceBD
                         else
                         {
                             context.Car_kits.Add(
-                                new Car_kit
+                                new CarKit
                                 {
                                     carkit_id = model.car_id,
                                     DetailId = groupProduct.ProductId,
