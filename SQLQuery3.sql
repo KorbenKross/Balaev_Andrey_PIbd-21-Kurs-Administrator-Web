@@ -1,1 +1,0 @@
-﻿ALTER TABLE Stock_Detail ADD DetailID int;
