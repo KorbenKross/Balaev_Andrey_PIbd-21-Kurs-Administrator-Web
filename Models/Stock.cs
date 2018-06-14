@@ -21,6 +21,6 @@ namespace Models
         public string StockName { get; set; }
 
         [ForeignKey("StockId")]
-        public virtual List<Stock_Detail> Stock_Detail { get; set; }
+        public virtual List<StockDetail> StockDetail { get; set; }
     }
 }

@@ -11,3 +11,43 @@ C:\Users\Kross\source\repos\Kurs\Models\obj\Debug\Models.dll
 C:\Users\Kross\source\repos\Kurs\Models\obj\Debug\Models.pdb
 C:\Users\Kross\source\repos\Kurs\Models\obj\Debug\Models.Properties.Resources.resources
 C:\Users\Kross\source\repos\Kurs\Models\obj\Debug\Models.csproj.GenerateResource.Cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\bin\Debug\Models.dll.config
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\bin\Debug\Models.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\bin\Debug\Models.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\bin\Debug\EntityFramework.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\bin\Debug\EntityFramework.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\obj\Debug\Models.Properties.Resources.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\obj\Debug\Models.csproj.GenerateResource.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\obj\Debug\Models.csproj.CopyComplete
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\obj\Debug\Models.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\CourceWorkDesc\Models\obj\Debug\Models.pdb
+C:\Users\Kross\Desktop\CourceWorkDesc\Models\bin\Debug\Models.dll.config
+C:\Users\Kross\Desktop\CourceWorkDesc\Models\bin\Debug\Models.dll
+C:\Users\Kross\Desktop\CourceWorkDesc\Models\bin\Debug\Models.pdb
+C:\Users\Kross\Desktop\CourceWorkDesc\Models\bin\Debug\EntityFramework.dll
+C:\Users\Kross\Desktop\CourceWorkDesc\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kross\Desktop\CourceWorkDesc\Models\bin\Debug\EntityFramework.xml
+C:\Users\Kross\Desktop\CourceWorkDesc\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kross\Desktop\CourceWorkDesc\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\Kross\Desktop\CourceWorkDesc\Models\obj\Debug\Models.Properties.Resources.resources
+C:\Users\Kross\Desktop\CourceWorkDesc\Models\obj\Debug\Models.csproj.GenerateResource.Cache
+C:\Users\Kross\Desktop\CourceWorkDesc\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Kross\Desktop\CourceWorkDesc\Models\obj\Debug\Models.dll
+C:\Users\Kross\Desktop\CourceWorkDesc\Models\obj\Debug\Models.pdb
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\Models\bin\Debug\Models.dll.config
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\Models\bin\Debug\Models.dll
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\Models\bin\Debug\Models.pdb
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\Models\bin\Debug\EntityFramework.dll
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\Models\bin\Debug\EntityFramework.xml
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\Models\obj\Debug\Models.Properties.Resources.resources
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\Models\obj\Debug\Models.csproj.GenerateResource.Cache
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\Models\obj\Debug\Models.dll
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\Models\obj\Debug\Models.pdb

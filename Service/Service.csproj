@@ -65,7 +65,9 @@
     <Compile Include="ConnectingModel\AdministratorConnectingModel.cs" />
     <Compile Include="ConnectingModel\CarConnectingModel.cs" />
     <Compile Include="ConnectingModel\CarKitConnectingModel.cs" />
+    <Compile Include="ConnectingModel\CarKitDetailConnectingModel.cs" />
     <Compile Include="ConnectingModel\DetailConnectingModel.cs" />
+    <Compile Include="ConnectingModel\MessageInfoConnectingModel.cs" />
     <Compile Include="ConnectingModel\OrderConnectingModel.cs" />
     <Compile Include="ConnectingModel\ReportConnectingModel.cs" />
     <Compile Include="ConnectingModel\RequestConnectingModel.cs" />
@@ -75,6 +77,7 @@
     <Compile Include="ConnectingModel\SupplierConnectingModel.cs" />
     <Compile Include="DBContext.cs" />
     <Compile Include="LogicInterface\IAdministratorService.cs" />
+    <Compile Include="LogicInterface\ICarKitService.cs" />
     <Compile Include="LogicInterface\ICarService.cs" />
     <Compile Include="LogicInterface\IDetailService.cs" />
     <Compile Include="LogicInterface\IGeneralService.cs" />
@@ -83,9 +86,9 @@
     <Compile Include="LogicInterface\ISerializeService.cs" />
     <Compile Include="LogicInterface\IStockService.cs" />
     <Compile Include="LogicInterface\ISupplierService.cs" />
-    <Compile Include="Migrations\201805281336595_FirstMigration.cs" />
-    <Compile Include="Migrations\201805281336595_FirstMigration.Designer.cs">
-      <DependentUpon>201805281336595_FirstMigration.cs</DependentUpon>
+    <Compile Include="Migrations\201806141750119_FirstMigration.cs" />
+    <Compile Include="Migrations\201806141750119_FirstMigration.Designer.cs">
+      <DependentUpon>201806141750119_FirstMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -95,21 +98,26 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="RealiseInterfaceBD\AdministratorService.cs" />
+    <Compile Include="RealiseInterfaceBD\CarKitService.cs" />
     <Compile Include="RealiseInterfaceBD\CarService.cs" />
     <Compile Include="RealiseInterfaceBD\DetailService.cs" />
+    <Compile Include="RealiseInterfaceBD\GeneralService.cs" />
     <Compile Include="RealiseInterfaceBD\ReportService.cs" />
     <Compile Include="RealiseInterfaceBD\RequestService.cs" />
     <Compile Include="RealiseInterfaceBD\SerializeSevice.cs" />
     <Compile Include="RealiseInterfaceBD\StockService.cs" />
     <Compile Include="RealiseInterfaceBD\SupplierService.cs" />
     <Compile Include="UserViewModel\AdministratorViewModel.cs" />
+    <Compile Include="UserViewModel\CarKitDetailViewModel.cs" />
     <Compile Include="UserViewModel\CarKitViewModel.cs" />
     <Compile Include="UserViewModel\CarViewModel.cs" />
     <Compile Include="UserViewModel\DetailViewModel.cs" />
+    <Compile Include="UserViewModel\MessageInfoViewModel.cs" />
     <Compile Include="UserViewModel\OrderViewModel.cs" />
     <Compile Include="UserViewModel\RequestDetailViewModel.cs" />
     <Compile Include="UserViewModel\RequestViewModel.cs" />
     <Compile Include="UserViewModel\StockDetailViewModel.cs" />
+    <Compile Include="UserViewModel\StocksLoadViewModel.cs" />
     <Compile Include="UserViewModel\StockViewModel.cs" />
     <Compile Include="UserViewModel\SupplierViewModel.cs" />
   </ItemGroup>
@@ -125,8 +133,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805281336595_FirstMigration.resx">
-      <DependentUpon>201805281336595_FirstMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201806141750119_FirstMigration.resx">
+      <DependentUpon>201806141750119_FirstMigration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

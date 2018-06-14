@@ -29,6 +29,9 @@ namespace Models
         [Required]
         public string password { get; set; }
 
+        [DataMember]
+        public string mail { get; set; }
+
         [ForeignKey("AdministratorId")]
         public virtual List<Order> Orders { get; set; }
     }

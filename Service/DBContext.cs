@@ -23,11 +23,11 @@ namespace Service
 
         public virtual DbSet<Car> Cars { get; set; }
 
-        public virtual DbSet<Car_kit> Car_kits { get; set; }
+        public virtual DbSet<CarKit> Car_kits { get; set; }
 
         public virtual DbSet<Stock> Stocks { get; set; }
 
-        public virtual DbSet<Stock_Detail> Stocks_Details { get; set; }
+        public virtual DbSet<StockDetail> Stocks_Details { get; set; }
 
         public virtual DbSet<Detail> Details { get; set; }
 
@@ -38,5 +38,7 @@ namespace Service
         public virtual DbSet<Request> Requests { get; set; }
 
         public virtual DbSet<RequestDetails> RequestDetailses { get; set; }
+
+        public virtual DbSet<CarKitDetail> CarKitDetails { get; set; }
     }
 }

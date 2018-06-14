@@ -27,7 +27,8 @@ namespace Service.RealiseInterfaceBD
                     admin_id = rec.admin_id,
                     name = rec.name,
                     login = rec.login,
-                    password = rec.password
+                    password = rec.password, 
+                    mail = rec.mail
                 })
                 .ToList();
             return result;

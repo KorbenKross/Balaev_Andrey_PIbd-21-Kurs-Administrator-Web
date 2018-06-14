@@ -13,6 +13,6 @@ namespace Service.ConnectingModel
 
         public string StockName { get; set; }
 
-        public List<Stock_Detail> Stock_Details { get; set; }
+        public List<StockDetail> Stock_Details { get; set; }
     }
 }

@@ -18,5 +18,7 @@ namespace Service.LogicInterface
         List<RequestViewModel> GetRequestsList(ReportConnectingModel model);
 
         void SaveReportToFile(ReportConnectingModel model);
+
+
     }
 }

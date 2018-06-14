@@ -16,6 +16,8 @@ namespace Service.ConnectingModel
 
         public int CarId { get; set; }
 
-        public int DetailId { get; set; }    
+        public int DetailId { get; set; }
+
+        public List<CarKitDetailConnectingModel> CarKitDetails { get; set; }
     }
 }

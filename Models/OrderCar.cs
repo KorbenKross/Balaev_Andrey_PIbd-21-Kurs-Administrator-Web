@@ -23,13 +23,16 @@ namespace Models
         public int count { get; set; }
 
         [DataMember]
-        public int car_id { get; set; }
+        public int carkit_id { get; set; }
+
+        [DataMember]
+        public string kit_name { get; set; }
 
         [DataMember]
         public int order_id { get; set; }
 
         public virtual Order Order { get; set; }
 
-        public virtual Car Car { get; set; }
+        public virtual CarKit CarKit { get; set; }
     }
 }

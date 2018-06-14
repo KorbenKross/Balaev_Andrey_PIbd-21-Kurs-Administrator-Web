@@ -15,6 +15,8 @@ namespace Service.ConnectingModel
 
         public int Suppliersupplier_id { get; set; }
 
+        public int CarKitId { get; set; }
+
         public DateTime order_date { get; set; }
 
         public int Sum { get; set; }
