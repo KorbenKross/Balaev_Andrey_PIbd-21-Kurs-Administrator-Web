@@ -74,4 +74,65 @@ C:\Users\Kross\Desktop\CourceWorkDesc — копия\Service\bin\Debug\Models.dl
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.xml
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\Service\bin\Debug\itextsharp.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\bin\Debug\Service.dll.config
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\bin\Debug\Service.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\bin\Debug\Service.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.SqlServer.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\bin\Debug\itextsharp.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\bin\Debug\Models.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\bin\Debug\Models.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\bin\Debug\Models.dll.config
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.SqlServer.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\bin\Debug\itextsharp.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\obj\Debug\Service.Migrations.FirstMigration.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\obj\Debug\Service.Properties.Resources.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\obj\Debug\Service.csproj.GenerateResource.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\obj\Debug\Service.csproj.CopyComplete
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\obj\Debug\Service.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\obj\Debug\Service.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\obj\Debug\Service.Migrations.SecondMigration.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\Service\obj\Debug\Service.Migrations.ThirdMigration.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\obj\Debug\Service.Properties.Resources.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\obj\Debug\Service.csproj.GenerateResource.Cache
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\obj\Debug\Service.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\obj\Debug\Service.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\bin\Debug\Service.dll.config
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\bin\Debug\Service.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\bin\Debug\Service.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\bin\Debug\itextsharp.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\bin\Debug\Models.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\bin\Debug\Models.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\bin\Debug\Models.dll.config
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.xml
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\bin\Debug\itextsharp.xml
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\Service\obj\Debug\Service.Migrations.FirstMigration.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\bin\Debug\Service.dll.config
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\bin\Debug\Service.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\bin\Debug\Service.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.SqlServer.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\bin\Debug\itextsharp.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\bin\Debug\Models.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\bin\Debug\Models.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\bin\Debug\Models.dll.config
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\bin\Debug\EntityFramework.SqlServer.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\bin\Debug\itextsharp.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\obj\Debug\Service.Migrations.FirstMigration.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\obj\Debug\Service.Properties.Resources.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\obj\Debug\Service.csproj.GenerateResource.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\obj\Debug\Service.csproj.CopyComplete
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\obj\Debug\Service.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\Service\obj\Debug\Service.pdb
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\Service\obj\Debug\Service.Migrations.FirstMigration.resources

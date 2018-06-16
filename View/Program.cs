@@ -24,15 +24,18 @@ namespace View
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(container.Resolve<MainForm>());
+            Application.Run(container.Resolve<LoginForm>());
         }
 
         public static IUnityContainer BuildUnityContainer()
         {
             var currentContainer = new UnityContainer();
             currentContainer.RegisterType<DbContext, DBContext>(new HierarchicalLifetimeManager());
+            currentContainer.RegisterType<ISupplierService, SupplierService>(new HierarchicalLifetimeManager());
+            currentContainer.RegisterType<IMessageInfoService, MessageInfoService>(new HierarchicalLifetimeManager());
             currentContainer.RegisterType<IAdministratorService, AdministratorService>(new HierarchicalLifetimeManager());
-            currentContainer.RegisterType<IDetailService, DetailService>(new HierarchicalLifetimeManager());     
+            currentContainer.RegisterType<IDetailService, DetailService>(new HierarchicalLifetimeManager());
+            currentContainer.RegisterType<ICarService, CarService>(new HierarchicalLifetimeManager());
             currentContainer.RegisterType<ICarKitService, CarKitService>(new HierarchicalLifetimeManager());
             currentContainer.RegisterType<IStockService, StockService>(new HierarchicalLifetimeManager());
             currentContainer.RegisterType<IGeneralService, GeneralService>(new HierarchicalLifetimeManager());

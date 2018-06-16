@@ -14,9 +14,9 @@ namespace Service.LogicInterface
 
         CarKitViewModel GetElement(int id);
 
-        void AddElement(CarKitConnectingModel model);
+        void AddElement(CarConnectingModel model, CarKitConnectingModel model1);
 
-        void UpdElement(CarKitConnectingModel model);
+        //void UpdElement(CarKitConnectingModel model);
 
         void DelElement(int id);
     }

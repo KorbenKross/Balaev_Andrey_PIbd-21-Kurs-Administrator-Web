@@ -85,27 +85,27 @@ namespace Service.RealiseInterfaceBD
                     };
                     context.Cars.Add(car);
                     context.SaveChanges();
-
-                    var groupProducts = model.Car_kit1
-                        .GroupBy(rec => rec.DetailId)
-                        .Select(rec => new
-                        {
-                            ProductId = rec.Key,
-                            Count = rec.Sum(r => r.Count)
-                        }
-                        );
-                    foreach (var groupProduct in groupProducts)
-                    {
-                        context.Car_kits.Add(
-                            new CarKit
-                            {
-                                car_id = car.car_id,
-                                DetailId = groupProduct.ProductId,
-                                Count = groupProduct.Count
-                            }
-                        );
-                        context.SaveChanges();
-                    }
+                    
+                    //var groupProducts = model.Car_kit1
+                    //    .GroupBy(rec => rec.DetailId)
+                    //    .Select(rec => new
+                    //    {
+                    //        ProductId = rec.Key,
+                    //        Count = rec.Sum(r => r.Count)
+                    //    }
+                    //    );
+                    //foreach (var groupProduct in groupProducts)
+                    //{
+                    //    context.Car_kits.Add(
+                    //        new CarKit
+                    //        {
+                    //            car_id = car.car_id,
+                    //            Count = groupProduct.Count
+                    //        }
+                    //    );
+                    //    context.SaveChanges();
+                    //}
+                    //context.SaveChanges();
                     transaction.Commit();
                 }
                 catch (Exception)
@@ -135,13 +135,13 @@ namespace Service.RealiseInterfaceBD
                     context.SaveChanges();
 
                     var compIds = model.Car_kit1.Select(rec => rec.carkit_id).Distinct();
-                    var updateProducts = context.Car_kits.Where(rec => rec.car_id == model.car_id && compIds.Contains(rec.DetailId));
+                    var updateProducts = context.Car_kits.Where(rec => rec.car_id == model.car_id);
                     foreach (var updateProduct in updateProducts)
                     {
                         updateProduct.Count = model.Car_kit1.FirstOrDefault(rec => rec.carkit_id == updateProduct.carkit_id).Count;
                     }
                     context.SaveChanges();
-                    context.Car_kits.RemoveRange(context.Car_kits.Where(rec => rec.car_id == model.car_id && !compIds.Contains(rec.DetailId)));
+                    context.Car_kits.RemoveRange(context.Car_kits.Where(rec => rec.car_id == model.car_id));
                     context.SaveChanges();
 
                     var groupProducts = model.Car_kit1
@@ -156,7 +156,7 @@ namespace Service.RealiseInterfaceBD
 
                     foreach (var groupProduct in groupProducts)
                     {
-                        CarKit car_Kit = context.Car_kits.FirstOrDefault(rec => rec.car_id == model.car_id && rec.DetailId == groupProduct.ProductId);
+                        CarKit car_Kit = context.Car_kits.FirstOrDefault(rec => rec.car_id == model.car_id);
                         if (car_Kit != null)
                         {
                             car_Kit.Count += groupProduct.Count;
@@ -168,7 +168,6 @@ namespace Service.RealiseInterfaceBD
                                 new CarKit
                                 {
                                     carkit_id = model.car_id,
-                                    DetailId = groupProduct.ProductId,
                                     Count = groupProduct.Count
                                 }
                             );

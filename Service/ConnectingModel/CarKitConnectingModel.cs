@@ -18,6 +18,6 @@ namespace Service.ConnectingModel
 
         public int DetailId { get; set; }
 
-        public List<CarKitDetailConnectingModel> CarKitDetails { get; set; }
+        public List<DetailConnectingModel> Details { get; set; }
     }
 }

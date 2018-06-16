@@ -19,11 +19,11 @@ namespace View
         [Dependency]
         public new IUnityContainer Container { get; set; }
 
-        public CarKitDetailViewModel Model { set { model = value; } get { return model; } }
+        public CarKitViewModel Model { set { model = value; } get { return model; } }
 
         private readonly IDetailService service;
 
-        private CarKitDetailViewModel model;
+        private CarKitViewModel model;
 
         public CarKitDetailForm(IDetailService service)
         {
@@ -38,8 +38,8 @@ namespace View
                 List<DetailViewModel> list = service.GetList();
                 if (list != null)
                 {
-                    comboBoxIngridient.DisplayMember = "DetailName";
-                    comboBoxIngridient.ValueMember = "Id";
+                    comboBoxIngridient.DisplayMember = "detail_name";
+                    comboBoxIngridient.ValueMember = "detail_id";
                     comboBoxIngridient.DataSource = list;
                     comboBoxIngridient.SelectedItem = null;
                 }
@@ -72,7 +72,7 @@ namespace View
             {
                 if (model == null)
                 {
-                    model = new CarKitDetailViewModel
+                    model = new CarKitViewModel
                     {
                         DetailId = Convert.ToInt32(comboBoxIngridient.SelectedValue),
                         DetailName = comboBoxIngridient.Text,

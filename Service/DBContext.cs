@@ -39,6 +39,6 @@ namespace Service
 
         public virtual DbSet<RequestDetails> RequestDetailses { get; set; }
 
-        public virtual DbSet<CarKitDetail> CarKitDetails { get; set; }
+        public virtual DbSet<MessageInfo> MessageInfos { get; set; }
     }
 }

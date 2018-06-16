@@ -23,17 +23,19 @@ namespace View
 
         public int Id { set { id = value; } }
 
-        private readonly ICarKitService service;
+        private readonly ICarKitService serviceCarKit;
+        private readonly ICarService serviceCar;
 
         private int? id;
 
-        private List<CarKitDetailViewModel> productComponents;
+        private List<CarKitViewModel> productComponents;
 
 
-        public CarKitForm(ICarKitService service)
+        public CarKitForm(ICarKitService serviceCarKit, ICarService serviceCar)
         {
             InitializeComponent();
-            this.service = service;
+            this.serviceCar = serviceCar;
+            this.serviceCarKit = serviceCarKit;
         }
         private void buttonAdd_Click(object sender, EventArgs e)
         {
@@ -44,7 +46,7 @@ namespace View
                 {
                     if (id.HasValue)
                     {
-                        form.Model.CarKitId = id.Value;
+                        form.Model.carkit_id = id.Value;
                     }
                     productComponents.Add(form.Model);
                 }
@@ -113,16 +115,32 @@ namespace View
 
         private void ArticleForm_Load(object sender, EventArgs e)
         {
+            try
+            {
+                List<CarViewModel> list = serviceCar.GetList();
+                if (list != null)
+                {
+                    comboBoxCarBrand.DisplayMember = "brand";
+                    comboBoxCarBrand.ValueMember = "car_id";
+                    comboBoxCarBrand.DataSource = list;
+                    comboBoxCarBrand.SelectedItem = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
             if (id.HasValue)
             {
+                
                 try
                 {
-                    CarKitViewModel view = service.GetElement(id.Value);
+                    CarKitViewModel view = serviceCarKit.GetElement(id.Value);
                     if (view != null)
                     {
                         textBoxName.Text = view.kit_name;
                         textBoxCount.Text = view.Count.ToString();
-                        productComponents = view.CarKitDetails;
                         LoadData();
                     }
                 }
@@ -133,7 +151,7 @@ namespace View
             }
             else
             {
-                productComponents = new List<CarKitDetailViewModel>();
+                productComponents = new List<CarKitViewModel>();
             }
         }
 
@@ -156,35 +174,30 @@ namespace View
             }
             try
             {
-                List<CarKitDetailConnectingModel> productComponentBM = new List<CarKitDetailConnectingModel>();
+                List<CarKitConnectingModel> productComponentBM = new List<CarKitConnectingModel>();
                 for (int i = 0; i < productComponents.Count; ++i)
                 {
-                    productComponentBM.Add(new CarKitDetailConnectingModel
+                    productComponentBM.Add(new CarKitConnectingModel
                     {
-                        Id = productComponents[i].Id,
-                        CarKitId = productComponents[i].CarKitId,
+                        carkit_id = productComponents[i].carkit_id,
+                        CarId = productComponents[i].CarId,
                         DetailId = productComponents[i].DetailId,
                         Count = productComponents[i].Count
                     });
                 }
-                if (id.HasValue)
+                if (!id.HasValue)
                 {
-                    service.UpdElement(new CarKitConnectingModel
+                    serviceCarKit.AddElement(new CarConnectingModel
                     {
-                        carkit_id = id.Value,
-                        kit_name = textBoxName.Text,
-                        Count = Convert.ToInt32(textBoxCount.Text),
-                        CarKitDetails = productComponentBM
-                    });
-                }
-                else
-                {
-                    service.AddElement(new CarKitConnectingModel
+                        Car_kit1 = productComponentBM
+                    }, 
+                    new CarKitConnectingModel
                     {
                         kit_name = textBoxName.Text,
+                        CarId = Convert.ToInt32(comboBoxCarBrand.SelectedValue),
                         Count = Convert.ToInt32(textBoxCount.Text),
-                        CarKitDetails = productComponentBM
-                    });
+                    }
+                    );
                 }
                 MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 DialogResult = DialogResult.OK;

@@ -59,7 +59,8 @@ namespace Service.RealiseInterfaceBD
             {
                 name = model.name,
                 login = model.login,
-                password = model.password
+                password = model.password,
+                mail = model.mail
             });
             context.SaveChanges();
         }
@@ -99,9 +100,9 @@ namespace Service.RealiseInterfaceBD
         {
             Administrator element = context.Administrators.FirstOrDefault(rec =>
                                     rec.login == model.login && rec.password == model.password);
-            if (element != null)
+            if (element == null)
             {
-                throw new Exception("Авторизация прошла успешно");
+                throw new Exception("Ошибка");
             }
         }
     }

@@ -80,9 +80,9 @@
             // 
             // buttonMake
             // 
-            this.buttonMake.Location = new System.Drawing.Point(568, 12);
+            this.buttonMake.Location = new System.Drawing.Point(541, 8);
             this.buttonMake.Name = "buttonMake";
-            this.buttonMake.Size = new System.Drawing.Size(176, 23);
+            this.buttonMake.Size = new System.Drawing.Size(176, 33);
             this.buttonMake.TabIndex = 5;
             this.buttonMake.Text = "Сформировать";
             this.buttonMake.UseVisualStyleBackColor = true;
@@ -90,15 +90,15 @@
             // 
             // buttonToPdf
             // 
-            this.buttonToPdf.Location = new System.Drawing.Point(836, 13);
+            this.buttonToPdf.Location = new System.Drawing.Point(759, 8);
             this.buttonToPdf.Name = "buttonToPdf";
-            this.buttonToPdf.Size = new System.Drawing.Size(114, 23);
+            this.buttonToPdf.Size = new System.Drawing.Size(114, 32);
             this.buttonToPdf.TabIndex = 6;
-            this.buttonToPdf.Text = "В Pdf";
+            this.buttonToPdf.Text = "PDF";
             this.buttonToPdf.UseVisualStyleBackColor = true;
             this.buttonToPdf.Click += new System.EventHandler(this.buttonToPdf_Click);
             // 
-            // CustomerRequestsForm
+            // AdministratorOrdersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -110,8 +110,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.reportViewer);
             this.Controls.Add(this.dateTimePickerFrom);
-            this.Name = "CustomerRequestsForm";
-            this.Text = "Заказы клинтов";
+            this.Name = "AdministratorOrdersForm";
+            this.Text = "Заказы администраторов";
             this.Load += new System.EventHandler(this.CustomerRequestsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

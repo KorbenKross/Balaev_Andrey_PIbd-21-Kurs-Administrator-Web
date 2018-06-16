@@ -73,7 +73,9 @@ namespace View
                 {
                     service.AddElement(new DetailConnectingModel
                     {
-                        DetailName = textBoxName.Text
+                        DetailName = textBoxName.Text,
+                        type = textBoxType.Text,
+                        Count = Convert.ToInt32(textBoxCount.Text)
                     });
                 }
                 MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);

@@ -93,7 +93,6 @@ C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.CarKitF
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.CarKitDetailForm.resources
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.CarKitsForm.resources
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.CreateOrderForm.resources
-C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.AdministratorForm.resources
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.AdministratorOrdersForm.resources
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.AdministratorsForm.resources
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.DetailForm.resources
@@ -103,8 +102,345 @@ C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\AbstractPizz
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.PutOnStockForm.resources
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.StockForm.resources
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.StocksForm.resources
-C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.TakeOrderInWorkForm.resources
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.csproj.GenerateResource.Cache
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.csproj.CoreCompileInputs.cache
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.exe
 C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\AbstractPizzeriaView.exe.config
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\AbstractPizzeriaView.exe
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\AbstractPizzeriaView.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\CommonServiceLocator.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\EntityFramework.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\EntityFramework.SqlServer.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Models.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Service.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Abstractions.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Configuration.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Container.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Interception.Configuration.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Interception.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.RegistrationByConvention.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.ServiceLocation.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\itextsharp.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\EnvDTE.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\stdole.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.MSXML.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Models.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Models.dll.config
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Service.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Service.dll.config
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\CommonServiceLocator.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\EntityFramework.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\EntityFramework.SqlServer.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Abstractions.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Configuration.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Container.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Interception.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Interception.Configuration.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.RegistrationByConvention.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\Unity.ServiceLocation.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\itextsharp.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.CarKitForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.CarKitDetailForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.CarKitsForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.CreateOrderForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.AdministratorForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.AdministratorOrdersForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.AdministratorsForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.DetailForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.DetailsForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.MainForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.Properties.Resources.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.PutOnStockForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.StockForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.StocksForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.TakeOrderInWorkForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.csproj.GenerateResource.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\View.csproj.CopyComplete
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.exe
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\Newest\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\AbstractPizzeriaView.exe.config
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\AbstractPizzeriaView.exe
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\AbstractPizzeriaView.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\CommonServiceLocator.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\EntityFramework.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Models.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Service.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.Abstractions.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.Configuration.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.Container.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.Interception.Configuration.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.Interception.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.RegistrationByConvention.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.ServiceLocation.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\itextsharp.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\EnvDTE.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\stdole.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Models.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Models.dll.config
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Service.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Service.dll.config
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\CommonServiceLocator.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\EntityFramework.xml
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.Configuration.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.Container.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.Interception.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.Interception.Configuration.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.RegistrationByConvention.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\Unity.ServiceLocation.pdb
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\itextsharp.xml
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.CarKitForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.CarKitDetailForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.CarKitsForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.CreateOrderForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.AdministratorForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.AdministratorOrdersForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.AdministratorsForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.DetailForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.DetailsForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.MainForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.Properties.Resources.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.PutOnStockForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.StockForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.StocksForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.TakeOrderInWorkForm.resources
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.csproj.GenerateResource.Cache
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.exe
+C:\Users\Kross\Desktop\Новая папка\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\AbstractPizzeriaView.exe.config
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\AbstractPizzeriaView.exe
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\AbstractPizzeriaView.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\CommonServiceLocator.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\EntityFramework.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\EntityFramework.SqlServer.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Models.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Service.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Abstractions.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Configuration.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Container.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Interception.Configuration.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Interception.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.RegistrationByConvention.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.ServiceLocation.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\itextsharp.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\EnvDTE.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\stdole.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Microsoft.MSXML.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Models.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Models.dll.config
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Service.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Service.dll.config
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\CommonServiceLocator.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\EntityFramework.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\EntityFramework.SqlServer.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Abstractions.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Configuration.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Container.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Interception.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.Interception.Configuration.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.RegistrationByConvention.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\Unity.ServiceLocation.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\itextsharp.xml
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.CarKitForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.CarKitDetailForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.CarKitsForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.CreateOrderForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.AdministratorOrdersForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.AdministratorsForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.DetailForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.DetailsForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.MainForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.Properties.Resources.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.PutOnStockForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.StockForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.StocksForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.TakeOrderInWorkForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.csproj.GenerateResource.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.csproj.CopyComplete
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.exe
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.pdb
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.RegistrationForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\View.LoginForm.resources
+E:\Универ\4 СЕМЕСТР\Программирование\Курсовая\The most newest\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.MailsForm.resources
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.MailsForm.resources
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.RegistrationForm.resources
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\View.LoginForm.resources
+C:\Users\Kross\Desktop\CourceWorkDesc — копия\View\obj\Debug\AbstractPizzeriaView.SendPdfForm.resources

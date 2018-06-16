@@ -28,7 +28,7 @@ namespace Service.RealiseInterfaceBD
                     detail_id = rec.detail_id,
                     type = rec.type,
                     detail_name = rec.DetailName,
-                        price = rec.price
+                    count = rec.count
                 })
                 .ToList();
             return result;
@@ -43,7 +43,7 @@ namespace Service.RealiseInterfaceBD
                 {
                     detail_id = detail.detail_id,
                     type = detail.type,
-                    price = detail.price,
+                    count = detail.count,
                     detail_name = detail.DetailName
                 };
             }
@@ -61,7 +61,7 @@ namespace Service.RealiseInterfaceBD
             {
                 DetailName = model.DetailName,
                 type = model.type,
-                price = model.Price
+                count = model.Count
             });
             context.SaveChanges();
         }
@@ -81,7 +81,7 @@ namespace Service.RealiseInterfaceBD
             }
             detail.DetailName = model.DetailName;
             detail.type = model.type;
-            detail.price = model.Price;
+            detail.count = model.Count;
             context.SaveChanges();
         }
 

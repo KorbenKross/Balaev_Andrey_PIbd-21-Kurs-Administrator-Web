@@ -28,46 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView = new System.Windows.Forms.DataGridView();
             this.buttonSave = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView
-            // 
-            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(1, 50);
-            this.dataGridView.Name = "dataGridView";
-            this.dataGridView.RowTemplate.Height = 24;
-            this.dataGridView.Size = new System.Drawing.Size(477, 377);
-            this.dataGridView.TabIndex = 0;
             // 
             // buttonSave
             // 
-            this.buttonSave.Location = new System.Drawing.Point(530, 321);
+            this.buttonSave.Location = new System.Drawing.Point(133, 66);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(75, 23);
+            this.buttonSave.Size = new System.Drawing.Size(118, 30);
             this.buttonSave.TabIndex = 1;
-            this.buttonSave.Text = "Save";
+            this.buttonSave.Text = "Сохранение";
             this.buttonSave.UseVisualStyleBackColor = true;
             this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
             // buttonCancel
             // 
-            this.buttonCancel.Location = new System.Drawing.Point(530, 364);
+            this.buttonCancel.Location = new System.Drawing.Point(325, 64);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(75, 23);
+            this.buttonCancel.Size = new System.Drawing.Size(118, 32);
             this.buttonCancel.TabIndex = 2;
-            this.buttonCancel.Text = "Cancel";
+            this.buttonCancel.Text = "Отмена";
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(122, 13);
+            this.textBoxName.Location = new System.Drawing.Point(122, 16);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(321, 22);
             this.textBoxName.TabIndex = 3;
@@ -77,32 +66,28 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(49, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 17);
+            this.label1.Size = new System.Drawing.Size(72, 17);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Name";
+            this.label1.Text = "Название";
             // 
-            // ResourceForm
+            // StockForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(639, 426);
+            this.ClientSize = new System.Drawing.Size(481, 129);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxName);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonSave);
-            this.Controls.Add(this.dataGridView);
-            this.Name = "ResourceForm";
+            this.Name = "StockForm";
             this.Text = "Склад";
             this.Load += new System.EventHandler(this.ResourceForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView;
         private System.Windows.Forms.Button buttonSave;
         private System.Windows.Forms.Button buttonCancel;
         private System.Windows.Forms.TextBox textBoxName;

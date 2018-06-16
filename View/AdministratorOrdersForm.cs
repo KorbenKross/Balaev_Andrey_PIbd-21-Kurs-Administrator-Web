@@ -53,7 +53,7 @@ namespace View
                     DateFrom = dateTimePickerFrom.Value,
                     DateTo = dateTimePickerTo.Value
                 });
-                ReportDataSource source = new ReportDataSource("DataSetRequests", dataSource);
+                ReportDataSource source = new ReportDataSource("DataSet", dataSource);
                 reportViewer.LocalReport.DataSources.Add(source);
 
                 reportViewer.RefreshReport();

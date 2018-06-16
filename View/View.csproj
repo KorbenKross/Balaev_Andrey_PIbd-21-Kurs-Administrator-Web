@@ -65,6 +65,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -122,12 +123,6 @@
     <Compile Include="CreateOrderForm.Designer.cs">
       <DependentUpon>CreateOrderForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdministratorForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdministratorForm.Designer.cs">
-      <DependentUpon>AdministratorForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="AdministratorOrdersForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +147,13 @@
     <Compile Include="DetailsForm.Designer.cs">
       <DependentUpon>DetailsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MailClient.cs" />
+    <Compile Include="MailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MailsForm.Designer.cs">
+      <DependentUpon>MailsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +168,18 @@
     <Compile Include="PutOnStockForm.Designer.cs">
       <DependentUpon>PutOnStockForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="RegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrationForm.Designer.cs">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendPdfForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendPdfForm.Designer.cs">
+      <DependentUpon>SendPdfForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="StockForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,11 +193,11 @@
       <DependentUpon>StocksForm.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <Compile Include="TakeOrderInWorkForm.cs">
+    <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TakeOrderInWorkForm.Designer.cs">
-      <DependentUpon>TakeOrderInWorkForm.cs</DependentUpon>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="CarKitForm.resx">
       <DependentUpon>CarKitForm.cs</DependentUpon>
@@ -197,9 +211,6 @@
     <EmbeddedResource Include="CreateOrderForm.resx">
       <DependentUpon>CreateOrderForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdministratorForm.resx">
-      <DependentUpon>AdministratorForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="AdministratorOrdersForm.resx">
       <DependentUpon>AdministratorOrdersForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -211,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DetailsForm.resx">
       <DependentUpon>DetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MailsForm.resx">
+      <DependentUpon>MailsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -227,18 +241,23 @@
     <EmbeddedResource Include="PutOnStockForm.resx">
       <DependentUpon>PutOnStockForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RegistrationForm.resx">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Report.rdlc" />
+    <EmbeddedResource Include="SendPdfForm.resx">
+      <DependentUpon>SendPdfForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StockForm.resx">
       <DependentUpon>StockForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StocksForm.resx">
       <DependentUpon>StocksForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TakeOrderInWorkForm.resx">
-      <DependentUpon>TakeOrderInWorkForm.cs</DependentUpon>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
-    <None Include="Properties\DataSources\AbstractPizzeriaService.ViewModels.CustomerRequestsModel.datasource" />
     <None Include="Properties\DataSources\Service.UserViewModel.OrderViewModel.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

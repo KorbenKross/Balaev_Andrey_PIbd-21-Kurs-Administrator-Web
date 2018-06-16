@@ -26,13 +26,16 @@ namespace View
         private readonly ICarKitService serviceP;
 
         private readonly IGeneralService serviceM;
+    
+        private readonly ISupplierService serviceS;
 
-        public CreateOrderForm(IAdministratorService serviceC, ICarKitService serviceP, IGeneralService serviceM)
+        public CreateOrderForm(IAdministratorService serviceC, ICarKitService serviceP, IGeneralService serviceM, ISupplierService serviceS)
         {
             InitializeComponent();
             this.serviceC = serviceC;
             this.serviceP = serviceP;
             this.serviceM = serviceM;
+            this.serviceS = serviceS;
         }
 
         private void CreateRequestForm_Load(object sender, EventArgs e)
@@ -54,6 +57,14 @@ namespace View
                     comboBoxArticle.ValueMember = "carkit_id";
                     comboBoxArticle.DataSource = listP;
                     comboBoxArticle.SelectedItem = null;
+                }
+                List<SupplierViewModel> listS = serviceS.GetList();
+                if (listP != null)
+                {
+                    comboBoxSupplier.DisplayMember = "name";
+                    comboBoxSupplier.ValueMember = "supplier_id";
+                    comboBoxSupplier.DataSource = listS;
+                    comboBoxSupplier.SelectedItem = null;
                 }
             }
             catch (Exception ex)
@@ -117,7 +128,9 @@ namespace View
                 serviceM.CreateOrder(new OrderConnectingModel
                 {
                     Administratoradmin_id = Convert.ToInt32(comboBoxCustomer.SelectedValue),
+                    Suppliersupplier_id = Convert.ToInt32(comboBoxSupplier.SelectedValue),
                     CarKitId = Convert.ToInt32(comboBoxArticle.SelectedValue),
+                    kit_name = comboBoxArticle.Text,
                     Count = Convert.ToInt32(textBoxCount.Text),
                     Sum = Convert.ToInt32(textBoxSum.Text)
                 });

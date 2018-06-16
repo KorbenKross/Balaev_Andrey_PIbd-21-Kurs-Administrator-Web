@@ -213,7 +213,7 @@ namespace Service.RealiseInterfaceBD
 
                     foreach (var elem in dict)
                     {
-                        double detailSum = elem.Count * elem.DetailPrice;
+                        double detailSum = elem.Count * 5;
                         totalSum += detailSum;
 
                         var excelBorder =
@@ -349,7 +349,7 @@ namespace Service.RealiseInterfaceBD
 
                 for (int i = 0; i < requestDetails.Count; ++i)
                 {
-                    double detailSum = requestDetails[i].Count * requestDetails[i].DetailPrice;
+                    double detailSum = requestDetails[i].Count * 5;
                     totalSum += detailSum;
 
                     table.Cell(i + 2, 1).Range.Text = requestDetails[i].DetailName;

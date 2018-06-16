@@ -51,7 +51,7 @@
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(126, 33);
             this.buttonAdd.TabIndex = 1;
-            this.buttonAdd.Text = "Add";
+            this.buttonAdd.Text = "Добавить";
             this.buttonAdd.UseVisualStyleBackColor = true;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
@@ -61,7 +61,7 @@
             this.buttonUpd.Name = "buttonUpd";
             this.buttonUpd.Size = new System.Drawing.Size(126, 33);
             this.buttonUpd.TabIndex = 2;
-            this.buttonUpd.Text = "Update";
+            this.buttonUpd.Text = "Изменить";
             this.buttonUpd.UseVisualStyleBackColor = true;
             this.buttonUpd.Click += new System.EventHandler(this.buttonUpd_Click);
             // 
@@ -71,7 +71,7 @@
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(126, 31);
             this.buttonDel.TabIndex = 3;
-            this.buttonDel.Text = "Delete";
+            this.buttonDel.Text = "Удалить";
             this.buttonDel.UseVisualStyleBackColor = true;
             this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
@@ -81,11 +81,11 @@
             this.buttonRef.Name = "buttonRef";
             this.buttonRef.Size = new System.Drawing.Size(126, 33);
             this.buttonRef.TabIndex = 4;
-            this.buttonRef.Text = "Change";
+            this.buttonRef.Text = "Обновить";
             this.buttonRef.UseVisualStyleBackColor = true;
             this.buttonRef.Click += new System.EventHandler(this.buttonRef_Click);
             // 
-            // IngridientsForm
+            // DetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -95,9 +95,8 @@
             this.Controls.Add(this.buttonUpd);
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.dataGridView);
-            this.Name = "IngridientsForm";
-            this.Text = "Ингридиенты";
-            this.Load += new System.EventHandler(this.IngridientsForm_Load);
+            this.Name = "DetailsForm";
+            this.Text = "Детали";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
 

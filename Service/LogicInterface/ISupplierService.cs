@@ -19,5 +19,7 @@ namespace Service.LogicInterface
         void UpdElement(SupplierConnectingModel model);
 
         void DelElement(int id);
+
+        void LogIn(SupplierConnectingModel model);
     }
 }
