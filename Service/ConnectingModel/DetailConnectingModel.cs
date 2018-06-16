@@ -14,7 +14,8 @@ namespace Service.ConnectingModel
 
         public string type { get; set; }
 
-        public double Price { get; set; }
+        public int Count { get; set; }
 
+        public List<DetailConnectingModel> details { get; set; }
     }
 }

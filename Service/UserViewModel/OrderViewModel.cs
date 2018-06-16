@@ -23,7 +23,7 @@ namespace Service.UserViewModel
 
         public int Sum { get; set; }
 
-        public OrderCondition order_status { get; set; }
+        public string order_status { get; set; }
 
         public int CarKitId { get; set; }
 

@@ -27,18 +27,15 @@ namespace Models
 
         [DataMember]
         public int DetailId { get; set; }
-
+ 
         public virtual Supplier Supplier { get; set; }
 
         public virtual Car Car { get; set; }
 
-        public virtual CarKitDetail CarKitDetail { get; set; }
+        public virtual Detail Detail { get; set; }
 
         [ForeignKey("carkit_id")]
         public virtual List<OrderCar> CarKitOrders { get; set; }
-
-        [ForeignKey("CarKitId")]
-        public virtual List<CarKitDetail> CarKitDetails { get; set; }
 
     }
 }

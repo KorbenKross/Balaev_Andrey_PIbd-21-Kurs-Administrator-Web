@@ -21,6 +21,8 @@ namespace Service.ConnectingModel
 
         public int Sum { get; set; }
 
+        public string kit_name { get; set; }
+
         public int CarId { get; set; }
 
         public int Count { get; set; }

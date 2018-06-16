@@ -1,4 +1,5 @@
-﻿using Service.ConnectingModel;
+﻿using AbstractPizzeriaView;
+using Service.ConnectingModel;
 using Service.LogicInterface;
 using Service.UserViewModel;
 using System;
@@ -84,12 +85,6 @@ namespace View
             form.ShowDialog();
         }
 
-        private void сотрудникиToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            //var form = Container.Resolve<WorkersForm>();
-            //form.ShowDialog();
-        }
-
         private void пополнитьСкладToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var form = Container.Resolve<PutOnStockForm>();
@@ -100,10 +95,16 @@ namespace View
         {
             if (dataGridView.SelectedRows.Count == 1)
             {
-                var form = Container.Resolve<TakeOrderInWorkForm>();
-                form.Id = Convert.ToInt32(dataGridView.SelectedRows[0].Cells[0].Value);
-                form.ShowDialog();
-                LoadData();
+                int id = Convert.ToInt32(dataGridView.SelectedRows[0].Cells[0].Value);
+                try
+                {
+                    service.TakeOrderInWork(id);
+                    LoadData();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -148,36 +149,19 @@ namespace View
 
         private void прайсИзделийToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SaveFileDialog sfd = new SaveFileDialog
-            {
-                Filter = "doc|*.doc|docx|*.docx"
-                            };
-                        if (sfd.ShowDialog() == DialogResult.OK)
-                            {
-                                try
-                {
-                    reportService.SaveReportToFile(new ReportConnectingModel
-                                        {
-                        FileName = sfd.FileName
-                                            });
-                    MessageBox.Show("Выполнено", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                    }
-                                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                    }
-                            }
-            }
-
-        private void загруженностьСкладовToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            //var form = Container.Resolve<OrdersLoadForm>();
-            //form.ShowDialog();
+            var form = Container.Resolve<SendPdfForm>();
+            form.ShowDialog();
         }
 
         private void заказыКлиентовToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var form = Container.Resolve<AdministratorOrdersForm>();
+            form.ShowDialog();
+        }
+
+        private void почтаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = Container.Resolve<MailsForm>();
             form.ShowDialog();
         }
     }

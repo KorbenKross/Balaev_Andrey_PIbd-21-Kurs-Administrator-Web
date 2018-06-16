@@ -25,14 +25,12 @@ namespace Service.RealiseInterfaceBD
         public List<OrderViewModel> GetOrdersList(ReportConnectingModel model)
         {
             return context.Orders
-                .Where(rec => rec.order_date >= model.DateFrom && rec.order_date <= model.DateTo)
                 .Select(
                     rec => new OrderViewModel
                     {
                         AdministratorName = rec.administrator.name,
                         order_date = rec.order_date.ToString(),
-                        order_status = rec.order_status,
-                        Sum = rec.OrderCar.Sum(r => r.cost)
+                        order_status = rec.order_status.ToString()
                     }
                 )
                 .ToList();
@@ -41,25 +39,12 @@ namespace Service.RealiseInterfaceBD
         public List<RequestViewModel> GetRequestsList(ReportConnectingModel model)
         {
             return context.Requests
-                .Where(rec => rec.Date >= model.DateFrom && rec.Date <= model.DateTo)
                 .Select(rec => new RequestViewModel
                 {
                     RequestId = rec.RequestId,
                     Price = rec.Price,
-                    Date = rec.Date.ToString(),
-                    RequestDetails = context.Stocks_Details
-                            .Where(recPR => recPR.Id == rec.RequestId)
-                            .Select(
-                                recPC => new RequestDetailViewModel
-                                {
-                                    Id = recPC.Id,
-                                    RequestId = recPC.Id,
-                                    DetailId = recPC.DetailId,
-                                    DetailName = recPC.Detail.DetailName,
-                                    Count = recPC.Count
-                                }
-                            )
-                            .ToList()
+                    Date = rec.Date.ToString()
+                    
                 })
                 .ToList();
         }
@@ -194,7 +179,7 @@ namespace Service.RealiseInterfaceBD
 
             //заполняем таблицу
             var listRequest = GetRequestsList(model);
-            for (int i = 0; i < listRequest.Count; i++)
+            for (int i = 3; i < listRequest.Count; i++)
             {
                 cellRequest = new PdfPCell(new Phrase(listRequest[i].Date, fontForCells));
                 tableRequests.AddCell(cellRequest);

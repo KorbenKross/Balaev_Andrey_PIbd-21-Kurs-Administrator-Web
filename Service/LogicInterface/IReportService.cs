@@ -7,7 +7,6 @@ using Service.LogicInterface;
 using Service.ConnectingModel;
 using Service;
 using Service.UserViewModel;
-using Service.ConnectingModel;
 
 namespace Service.LogicInterface
 {

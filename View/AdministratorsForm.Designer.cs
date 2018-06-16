@@ -29,74 +29,50 @@
         private void InitializeComponent()
         {
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.buttonAdd = new System.Windows.Forms.Button();
-            this.buttonUpd = new System.Windows.Forms.Button();
-            this.buttonDel = new System.Windows.Forms.Button();
             this.buttonRef = new System.Windows.Forms.Button();
+            this.buttonDel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView
             // 
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(1, 0);
+            this.dataGridView.Location = new System.Drawing.Point(12, 12);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowTemplate.Height = 24;
-            this.dataGridView.Size = new System.Drawing.Size(507, 467);
+            this.dataGridView.Size = new System.Drawing.Size(651, 352);
             this.dataGridView.TabIndex = 0;
-            // 
-            // buttonAdd
-            // 
-            this.buttonAdd.Location = new System.Drawing.Point(558, 36);
-            this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(75, 23);
-            this.buttonAdd.TabIndex = 1;
-            this.buttonAdd.Text = "Add";
-            this.buttonAdd.UseVisualStyleBackColor = true;
-            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
-            // 
-            // buttonUpd
-            // 
-            this.buttonUpd.Location = new System.Drawing.Point(558, 181);
-            this.buttonUpd.Name = "buttonUpd";
-            this.buttonUpd.Size = new System.Drawing.Size(75, 23);
-            this.buttonUpd.TabIndex = 2;
-            this.buttonUpd.Text = "Update";
-            this.buttonUpd.UseVisualStyleBackColor = true;
-            this.buttonUpd.Click += new System.EventHandler(this.buttonUpd_Click);
-            // 
-            // buttonDel
-            // 
-            this.buttonDel.Location = new System.Drawing.Point(558, 131);
-            this.buttonDel.Name = "buttonDel";
-            this.buttonDel.Size = new System.Drawing.Size(75, 23);
-            this.buttonDel.TabIndex = 3;
-            this.buttonDel.Text = "Delete";
-            this.buttonDel.UseVisualStyleBackColor = true;
-            this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
             // buttonRef
             // 
-            this.buttonRef.Location = new System.Drawing.Point(558, 83);
+            this.buttonRef.Location = new System.Drawing.Point(423, 393);
             this.buttonRef.Name = "buttonRef";
-            this.buttonRef.Size = new System.Drawing.Size(75, 23);
-            this.buttonRef.TabIndex = 4;
-            this.buttonRef.Text = "Change";
+            this.buttonRef.Size = new System.Drawing.Size(94, 43);
+            this.buttonRef.TabIndex = 2;
+            this.buttonRef.Text = "Обновить";
             this.buttonRef.UseVisualStyleBackColor = true;
             this.buttonRef.Click += new System.EventHandler(this.buttonRef_Click);
             // 
-            // CustomersForm
+            // buttonDel
+            // 
+            this.buttonDel.Location = new System.Drawing.Point(157, 393);
+            this.buttonDel.Name = "buttonDel";
+            this.buttonDel.Size = new System.Drawing.Size(94, 43);
+            this.buttonDel.TabIndex = 3;
+            this.buttonDel.Text = "Удалить";
+            this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
+            // 
+            // AdministratorsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(675, 468);
-            this.Controls.Add(this.buttonRef);
             this.Controls.Add(this.buttonDel);
-            this.Controls.Add(this.buttonUpd);
-            this.Controls.Add(this.buttonAdd);
+            this.Controls.Add(this.buttonRef);
             this.Controls.Add(this.dataGridView);
-            this.Name = "CustomersForm";
-            this.Text = "Клиенты";
+            this.Name = "AdministratorsForm";
+            this.Text = "Администраторы";
             this.Load += new System.EventHandler(this.CustomersForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
@@ -106,9 +82,7 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView;
-        private System.Windows.Forms.Button buttonAdd;
-        private System.Windows.Forms.Button buttonUpd;
-        private System.Windows.Forms.Button buttonDel;
         private System.Windows.Forms.Button buttonRef;
+        private System.Windows.Forms.Button buttonDel;
     }
 }

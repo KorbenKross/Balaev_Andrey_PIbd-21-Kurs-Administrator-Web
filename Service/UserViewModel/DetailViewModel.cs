@@ -14,6 +14,6 @@ namespace Service.UserViewModel
 
         public string type { get; set; }
 
-        public double price { get; set; }
+        public double count { get; set; }
     }
 }

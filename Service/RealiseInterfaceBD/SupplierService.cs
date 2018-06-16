@@ -54,7 +54,9 @@ namespace Service.RealiseInterfaceBD
             }
             context.Suppliers.Add(new Supplier
             {
-                name = model.name
+                name = model.name,
+                login = model.login,
+                password = model.password
             });
             context.SaveChanges();
         }
@@ -87,6 +89,16 @@ namespace Service.RealiseInterfaceBD
             else
             {
                 throw new Exception("Сотрудник не найден");
+            }
+        }
+
+        public void LogIn(SupplierConnectingModel model)
+        {
+            Supplier element = context.Suppliers.FirstOrDefault(rec =>
+                                    rec.login == model.login && rec.password == model.password);
+            if (element == null)
+            {
+                throw new Exception("Ошибка");
             }
         }
     }

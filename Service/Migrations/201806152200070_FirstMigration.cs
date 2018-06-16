@@ -51,15 +51,14 @@ namespace Service.Migrations
                         Count = c.Int(nullable: false),
                         car_id = c.Int(nullable: false),
                         DetailId = c.Int(nullable: false),
-                        CarKitDetail_Id = c.Int(),
                         Supplier_supplier_id = c.Int(),
                     })
                 .PrimaryKey(t => t.carkit_id)
                 .ForeignKey("dbo.Cars", t => t.car_id, cascadeDelete: true)
-                .ForeignKey("dbo.CarKitDetails", t => t.CarKitDetail_Id)
+                .ForeignKey("dbo.Details", t => t.DetailId, cascadeDelete: true)
                 .ForeignKey("dbo.Suppliers", t => t.Supplier_supplier_id)
                 .Index(t => t.car_id)
-                .Index(t => t.CarKitDetail_Id)
+                .Index(t => t.DetailId)
                 .Index(t => t.Supplier_supplier_id);
             
             CreateTable(
@@ -73,22 +72,20 @@ namespace Service.Migrations
                 .PrimaryKey(t => t.car_id);
             
             CreateTable(
-                "dbo.CarKitDetails",
+                "dbo.OrderCars",
                 c => new
                     {
-                        Id = c.Int(nullable: false, identity: true),
-                        CarKitId = c.Int(nullable: false),
-                        DetailId = c.Int(nullable: false),
-                        Count = c.Int(nullable: false),
-                        CarKit_carkit_id = c.Int(),
+                        id = c.Int(nullable: false, identity: true),
+                        cost = c.Int(nullable: false),
+                        count = c.Int(nullable: false),
+                        carkit_id = c.Int(nullable: false),
+                        kit_name = c.String(),
+                        order_id = c.Int(nullable: false),
                     })
-                .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.CarKits", t => t.CarKit_carkit_id)
-                .ForeignKey("dbo.Details", t => t.DetailId, cascadeDelete: true)
-                .ForeignKey("dbo.CarKits", t => t.CarKitId, cascadeDelete: true)
-                .Index(t => t.CarKitId)
-                .Index(t => t.DetailId)
-                .Index(t => t.CarKit_carkit_id);
+                .PrimaryKey(t => t.id)
+                .ForeignKey("dbo.CarKits", t => t.carkit_id, cascadeDelete: true)
+                .ForeignKey("dbo.Orders", t => t.carkit_id, cascadeDelete: true)
+                .Index(t => t.carkit_id);
             
             CreateTable(
                 "dbo.Details",
@@ -97,7 +94,7 @@ namespace Service.Migrations
                         detail_id = c.Int(nullable: false, identity: true),
                         DetailName = c.String(nullable: false),
                         type = c.String(nullable: false),
-                        price = c.Double(nullable: false),
+                        count = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.detail_id);
             
@@ -126,22 +123,6 @@ namespace Service.Migrations
                 .PrimaryKey(t => t.StockId);
             
             CreateTable(
-                "dbo.OrderCars",
-                c => new
-                    {
-                        id = c.Int(nullable: false, identity: true),
-                        cost = c.Int(nullable: false),
-                        count = c.Int(nullable: false),
-                        carkit_id = c.Int(nullable: false),
-                        kit_name = c.String(),
-                        order_id = c.Int(nullable: false),
-                    })
-                .PrimaryKey(t => t.id)
-                .ForeignKey("dbo.CarKits", t => t.carkit_id, cascadeDelete: true)
-                .ForeignKey("dbo.Orders", t => t.carkit_id, cascadeDelete: true)
-                .Index(t => t.carkit_id);
-            
-            CreateTable(
                 "dbo.Suppliers",
                 c => new
                     {
@@ -151,6 +132,23 @@ namespace Service.Migrations
                         password = c.String(nullable: false),
                     })
                 .PrimaryKey(t => t.supplier_id);
+            
+            CreateTable(
+                "dbo.MessageInfoes",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        MessageId = c.String(),
+                        FromMailAddress = c.String(),
+                        Subject = c.String(),
+                        Body = c.String(),
+                        DateDelivery = c.DateTime(nullable: false),
+                        AdministratorId = c.Int(),
+                        Administrator_admin_id = c.Int(),
+                    })
+                .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.Administrators", t => t.Administrator_admin_id)
+                .Index(t => t.Administrator_admin_id);
             
             CreateTable(
                 "dbo.RequestDetails",
@@ -184,41 +182,37 @@ namespace Service.Migrations
         {
             DropForeignKey("dbo.RequestDetails", "RequestId", "dbo.Requests");
             DropForeignKey("dbo.RequestDetails", "Detail_detail_id", "dbo.Details");
+            DropForeignKey("dbo.MessageInfoes", "Administrator_admin_id", "dbo.Administrators");
             DropForeignKey("dbo.Orders", "CarKit_carkit_id", "dbo.CarKits");
             DropForeignKey("dbo.CarKits", "Supplier_supplier_id", "dbo.Suppliers");
             DropForeignKey("dbo.Orders", "SupplierId", "dbo.Suppliers");
-            DropForeignKey("dbo.OrderCars", "carkit_id", "dbo.Orders");
-            DropForeignKey("dbo.OrderCars", "carkit_id", "dbo.CarKits");
-            DropForeignKey("dbo.CarKitDetails", "CarKitId", "dbo.CarKits");
-            DropForeignKey("dbo.CarKits", "CarKitDetail_Id", "dbo.CarKitDetails");
             DropForeignKey("dbo.StockDetails", "StockId", "dbo.Stocks");
             DropForeignKey("dbo.StockDetails", "DetailId", "dbo.Details");
-            DropForeignKey("dbo.CarKitDetails", "DetailId", "dbo.Details");
-            DropForeignKey("dbo.CarKitDetails", "CarKit_carkit_id", "dbo.CarKits");
+            DropForeignKey("dbo.CarKits", "DetailId", "dbo.Details");
+            DropForeignKey("dbo.OrderCars", "carkit_id", "dbo.Orders");
+            DropForeignKey("dbo.OrderCars", "carkit_id", "dbo.CarKits");
             DropForeignKey("dbo.CarKits", "car_id", "dbo.Cars");
             DropForeignKey("dbo.Orders", "AdministratorId", "dbo.Administrators");
             DropIndex("dbo.RequestDetails", new[] { "Detail_detail_id" });
             DropIndex("dbo.RequestDetails", new[] { "RequestId" });
-            DropIndex("dbo.OrderCars", new[] { "carkit_id" });
+            DropIndex("dbo.MessageInfoes", new[] { "Administrator_admin_id" });
             DropIndex("dbo.StockDetails", new[] { "StockId" });
             DropIndex("dbo.StockDetails", new[] { "DetailId" });
-            DropIndex("dbo.CarKitDetails", new[] { "CarKit_carkit_id" });
-            DropIndex("dbo.CarKitDetails", new[] { "DetailId" });
-            DropIndex("dbo.CarKitDetails", new[] { "CarKitId" });
+            DropIndex("dbo.OrderCars", new[] { "carkit_id" });
             DropIndex("dbo.CarKits", new[] { "Supplier_supplier_id" });
-            DropIndex("dbo.CarKits", new[] { "CarKitDetail_Id" });
+            DropIndex("dbo.CarKits", new[] { "DetailId" });
             DropIndex("dbo.CarKits", new[] { "car_id" });
             DropIndex("dbo.Orders", new[] { "CarKit_carkit_id" });
             DropIndex("dbo.Orders", new[] { "SupplierId" });
             DropIndex("dbo.Orders", new[] { "AdministratorId" });
             DropTable("dbo.Requests");
             DropTable("dbo.RequestDetails");
+            DropTable("dbo.MessageInfoes");
             DropTable("dbo.Suppliers");
-            DropTable("dbo.OrderCars");
             DropTable("dbo.Stocks");
             DropTable("dbo.StockDetails");
             DropTable("dbo.Details");
-            DropTable("dbo.CarKitDetails");
+            DropTable("dbo.OrderCars");
             DropTable("dbo.Cars");
             DropTable("dbo.CarKits");
             DropTable("dbo.Orders");

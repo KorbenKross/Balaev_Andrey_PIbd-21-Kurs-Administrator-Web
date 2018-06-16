@@ -9,12 +9,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
+using iTextSharp.text.pdf;
+using System.IO;
+using iTextSharp.text;
+using System.Text.RegularExpressions;
+using System.Net.Mail;
+using System.Net;
 
 namespace Service.RealiseInterfaceBD
 {
     public class GeneralService : IGeneralService
     {
         private DBContext context;
+        private string reportMessage = "Отчёт по движению: " + "\r\n";
 
         public GeneralService(DBContext context)
         {
@@ -32,7 +39,7 @@ namespace Service.RealiseInterfaceBD
                     order_date = SqlFunctions.DateName("dd", rec.order_date) + " " +
                                 SqlFunctions.DateName("mm", rec.order_date) + " " +
                                 SqlFunctions.DateName("yyyy", rec.order_date),
-                    order_status = rec.order_status,
+                    order_status = rec.order_status.ToString(),
                     Count = rec.Count,
                     Sum = rec.Sum,
                     AdministratorName = rec.administrator.name,
@@ -47,71 +54,28 @@ namespace Service.RealiseInterfaceBD
             context.Orders.Add(new Order
             {
                 AdministratorId = model.Administratoradmin_id,
+                SupplierId = model.Suppliersupplier_id,
                 CarKitId = model.CarKitId,
+                CarKitName = model.kit_name,
                 order_date = DateTime.Now,
                 Count = model.Count,
                 Sum = model.Sum,
                 order_status = OrderCondition.Принят
             });
             context.SaveChanges();
+            reportMessage = reportMessage + "Ваш заказ был создан" + "\r\n" + DateTime.Now;
         }
 
-        public void TakeOrderInWork(OrderConnectingModel model)
+        public void TakeOrderInWork(int id)
         {
-            using (var transaction = context.Database.BeginTransaction())
+            Order element = context.Orders.FirstOrDefault(rec => rec.order_id == id);
+            if (element == null)
             {
-                try
-                {
-
-                    Order element = context.Orders.FirstOrDefault(rec => rec.order_id == model.order_id);
-                    if (element == null)
-                    {
-                        throw new Exception("Элемент не найден");
-                    }
-                    var productComponents = context.CarKitDetails
-                                                .Include(rec => rec.Detail)
-                                                .Where(rec => rec.CarKitId == element.CarKitId);
-                    // списываем
-                    foreach (var productComponent in productComponents)
-                    {
-                        int countOnStocks = productComponent.Count * element.Count;
-                        var stockComponents = context.Stocks_Details
-                                                    .Where(rec => rec.DetailId == productComponent.DetailId);
-                        foreach (var stockComponent in stockComponents)
-                        {
-                            // компонентов на одном слкаде может не хватать
-                            if (stockComponent.Count >= countOnStocks)
-                            {
-                                stockComponent.Count -= countOnStocks;
-                                countOnStocks = 0;
-                                context.SaveChanges();
-                                break;
-                            }
-                            else
-                            {
-                                countOnStocks -= stockComponent.Count;
-                                stockComponent.Count = 0;
-                                context.SaveChanges();
-                            }
-                        }
-                        if (countOnStocks > 0)
-                        {
-                            throw new Exception("Не достаточно компонента " +
-                                productComponent.Detail.DetailName + " требуется " +
-                                productComponent.Count + ", не хватает " + countOnStocks);
-                        }
-                    }
-                    element.order_date = DateTime.Now;
-                    element.order_status = OrderCondition.Готовиться;
-                    context.SaveChanges();
-                    transaction.Commit();
-                }
-                catch (Exception)
-                {
-                    transaction.Rollback();
-                    throw;
-                }
+                throw new Exception("Элемент не найден");
             }
+            element.order_status = OrderCondition.Выгружен;
+            reportMessage = reportMessage + "Ваш заказ был выгружен" + "\r\n" + DateTime.Now;
+            context.SaveChanges();
         }
 
         public void FinishOrder(int id)
@@ -122,6 +86,7 @@ namespace Service.RealiseInterfaceBD
                 throw new Exception("Элемент не найден");
             }
             element.order_status = OrderCondition.Готов;
+            reportMessage = reportMessage + "Ваш заказ был доставлен" + "\r\n" + DateTime.Now ;
             context.SaveChanges();
         }
 
@@ -133,6 +98,7 @@ namespace Service.RealiseInterfaceBD
                 throw new Exception("Элемент не найден");
             }
             element.order_status = OrderCondition.Оплачен;
+            reportMessage = reportMessage + "Ваш заказ оплачен" + "\r\n" + DateTime.Now;
             context.SaveChanges();
         }
 
@@ -156,5 +122,31 @@ namespace Service.RealiseInterfaceBD
             }
             context.SaveChanges();
         }
+
+        public void SendPdf(string path)
+        {
+            //открываем файл для работы
+            FileStream fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write);
+
+            //создаем документ, задаем границы, связываем документ и поток
+            iTextSharp.text.Document doc = new iTextSharp.text.Document();
+            doc.SetMargins(0.5f, 0.5f, 0.5f, 0.5f);
+            PdfWriter writer = PdfWriter.GetInstance(doc, fs);
+
+            doc.Open();
+
+            BaseFont baseFont = BaseFont.CreateFont(@"TIMCYR.TTF", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+              writer.DirectContent.BeginText();
+              writer.DirectContent.SetFontAndSize(baseFont, 12f);
+              writer.DirectContent.ShowTextAligned(Element.ALIGN_LEFT, reportMessage, 35, 766, 0);
+              writer.DirectContent.EndText();
+              doc.Close();
+              writer.Close();
+        }
+
+        
+
+
+
     }
 }

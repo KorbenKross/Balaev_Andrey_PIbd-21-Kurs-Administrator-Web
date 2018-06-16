@@ -14,12 +14,14 @@ namespace Service.LogicInterface
 
         void CreateOrder(OrderConnectingModel model);
 
-        void TakeOrderInWork(OrderConnectingModel model);
+        void TakeOrderInWork(int id);
 
         void FinishOrder(int id);
 
         void PayOrder(int id);
 
         void PutComponentOnStock(StockDetailConnectingModel model);
+
+        void SendPdf(string mail);
     }
 }

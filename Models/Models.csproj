@@ -51,8 +51,8 @@
     <Compile Include="Administrator.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="CarKit.cs" />
-    <Compile Include="CarKitDetail.cs" />
     <Compile Include="Detail.cs" />
+    <Compile Include="MessageInfo.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderCar.cs" />
     <Compile Include="OrderCondition.cs" />
